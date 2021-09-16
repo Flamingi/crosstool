@@ -75,7 +75,7 @@ CXX_BUILTIN_INCLUDE_DIRECTORIES = {
         "/usr/local/include",
         "/usr/lib/gcc/x86_64-linux-gnu/%d/include-fixed" % GCC_VERSION,
         "/usr/include/x86_64-linux-gnu",
-        "/usr/include",,
+        "/usr/include",
         "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include",
         "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed",
     ],
