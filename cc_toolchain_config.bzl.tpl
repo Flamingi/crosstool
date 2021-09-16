@@ -77,7 +77,7 @@ CXX_BUILTIN_INCLUDE_DIRECTORIES = {
         "/usr/include/x86_64-linux-gnu",
         "/usr/include",,
         "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include",
-        "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"
+        "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed",
     ],
     "armv7a": [
         "/usr/arm-linux-gnueabihf/include/c++/%d" % GCC_VERSION,
@@ -87,7 +87,7 @@ CXX_BUILTIN_INCLUDE_DIRECTORIES = {
         "/usr/lib/gcc-cross/arm-linux-gnueabihf/%d/include-fixed" % GCC_VERSION,
         "/usr/arm-linux-gnueabihf/include",
         "/usr/include/arm-linux-gnueabihf",
-        "/usr/include"
+        "/usr/include",
     ],
     "armv6": [
         "%{bcm2708_toolchain_root}%/arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3",
